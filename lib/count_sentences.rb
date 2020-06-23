@@ -30,9 +30,4 @@ class String
 count = self.split(" ").length
 count
   end
-
-  def complex_string
-    count = self.split(" ").length
-    count
-  end
 end
