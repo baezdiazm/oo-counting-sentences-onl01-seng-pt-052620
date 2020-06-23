@@ -6,7 +6,7 @@ class String
   end
 
   def question?(sentence)
-    if sentence.end_with?("?")
+    if sentence.ends_with?("?")
       true
     else
       false
