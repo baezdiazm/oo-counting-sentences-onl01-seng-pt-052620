@@ -6,7 +6,10 @@ class String
   end
 
   def question?(sentence)
-    if sentence.end_with?("?") true | false
+    if sentence.end_with?("?")
+      true
+    else
+      false
   end
 
   def exclamation?
