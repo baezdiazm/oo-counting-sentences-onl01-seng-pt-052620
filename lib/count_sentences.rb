@@ -27,7 +27,7 @@ class String
   end
 
   def count_sentences
-count = self.split(/\s+/).length
+count = self.split(" ").length
 count
   end
 end
